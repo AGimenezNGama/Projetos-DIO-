@@ -8,8 +8,19 @@ public class basicoJava {
         double salario = 2589.45;
         String nomeCompleto = "Alexy Gimenez";
         boolean sexoMasculino = true;
-        
 
-        System.out.println("hello world! ");
+        int a = 12;
+        int b = 11;
+
+        if (a > b) {
+            System.out.println("A é maior que B");
+        } else {
+            System.out.println("B é maior que A");
+        }
+
+        String nome1 = "ALEXY";
+        String nome2 = "JORGE";
+
+        System.out.println(nome1.equals(nome2));
     }
 }
